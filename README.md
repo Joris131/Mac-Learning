@@ -12,5 +12,5 @@
 ## 02. mac rar 的使用
 
 ### rar a -ep1 新建归档.rar /Users/franklinli/Desktop/macos.txt /Users/franklinli/c++
-#### a       Add files to archive.
-#### -ep1    避免将整个路径都添加到压缩包。
+#### #a          Add files to archive.
+#### #-ep1       避免将整个路径都添加到压缩包。
