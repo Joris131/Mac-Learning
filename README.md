@@ -2,6 +2,7 @@
 
 ## 01. 在 Mac 上的“终端”中纠正键入错误
 ## 02. mac rar 的使用
+## 03. efetch install
 
 ## 01.在 Mac 上的“终端”中纠正键入错误
 
@@ -14,3 +15,9 @@
 ### rar a -ep1 新建归档.rar /Users/franklinli/Desktop/macos.txt /Users/franklinli/c++
 #### #a          Add files to archive.
 #### #-ep1       避免将整个路径都添加到压缩包。
+
+## 03. efetch install
+
+### sudo apt install acedb-other       
+### sudo apt install ncbi-entrez-direct
+
