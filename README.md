@@ -3,6 +3,7 @@
 ## 01. 在 Mac 上的“终端”中纠正键入错误
 ## 02. mac rar 的使用
 ## 03. efetch install
+## 04. 添加环境变量
 
 ## 01.在 Mac 上的“终端”中纠正键入错误
 
@@ -20,4 +21,12 @@
 
 ### sudo apt install acedb-other       
 ### sudo apt install ncbi-entrez-direct
+
+## 04. 添加环境变量
+
+    sudo vi ~/.bash_profile
+### 添加变量：
+    export PATH=/you/path/.../bin:$PATH    
+### 保存后，执行：
+    echo $PATH
 
