@@ -4,6 +4,7 @@
 ## 02. mac rar 的使用
 ## 03. efetch install
 ## 04. 添加环境变量
+## 05. locate命令
 
 ## 01.在 Mac 上的“终端”中纠正键入错误
 
@@ -29,4 +30,10 @@
     export PATH=/you/path/.../bin:$PATH    
 ### 保存后，执行：
     echo $PATH
+    
+## 05. locate命令
+    /usr/libexec/locate.updatedb
+### if you do not have the permission
+    chmod /usr/libexec/locate.updatedb
+    /usr/libexec/locate.updatedb    
 
