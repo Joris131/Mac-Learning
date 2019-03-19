@@ -5,6 +5,7 @@
 ## 03. efetch install
 ## 04. 添加环境变量
 ## 05. locate命令
+## 06. rename
 
 ## 01.在 Mac 上的“终端”中纠正键入错误
 
@@ -36,4 +37,7 @@
 ### if you do not have the permission
     chmod /usr/libexec/locate.updatedb
     /usr/libexec/locate.updatedb    
+    
+## 06. rename
+    rename 's/old/new/' *.files        
 
